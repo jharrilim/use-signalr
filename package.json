@@ -1,0 +1,33 @@
+{
+  "name": "use-signalr",
+  "version": "0.0.1",
+  "description": "React hook for retrieving updates via websocket",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jharrilim/use-signalr.git"
+  },
+  "keywords": [
+    "react",
+    "signalr",
+    "hook"
+  ],
+  "author": "Joseph Harrison-Lim",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/jharrilim/use-signalr/issues"
+  },
+  "homepage": "https://github.com/jharrilim/use-signalr#readme",
+  "dependencies": {
+    "@aspnet/signalr": "^1.1.2",
+    "react": "^16.8.6"
+  },
+  "devDependencies": {
+    "@types/node": "^11.13.0",
+    "@types/react": "^16.8.12"
+  }
+}
